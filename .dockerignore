@@ -1,0 +1,20 @@
+# .dockerignore
+.git
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyz
+*.dist-info
+*.egg-info
+config/
+data/
+docs/
+my_venv/
+notebooks/
+wandb/
+src/train.py
+src/inference.py
+requirements_test.txt
