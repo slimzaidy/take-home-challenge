@@ -9,18 +9,17 @@ The makefile included with this project contains targets that help to automate s
 cd take-home-challenge
 ```
 
-2. Download the California housing dataset and create train and test CSV files
-```bash
-make prep_data
-```
-
-3. Then create a virtual environment, install its dependancies:
+2. Then create a virtual environment, install its dependancies:
 ```bash
 make all
 ```
 ```bash
 # You can manually activate it with the following line, this is not necessary if you're only running the targers with the "make" command
 source my_venv/bin/activate
+```
+3. Download the California housing dataset and create train and test CSV files
+```bash
+make prep_data
 ```
 
 ## 3. Running the application

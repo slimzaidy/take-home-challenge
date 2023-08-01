@@ -12,7 +12,7 @@ create_venv:
 	python3 -m virtualenv $(VENV_NAME)
 	
 install_dependancies:
-	$(VENV_ACTIVATE) && python3 -m pip install -r requirements.txt
+	$(VENV_ACTIVATE) && python3 -m pip install -r requirements_dev.txt
 
 jupyter:
 	$(VENV_ACTIVATE) && python3 -m ipykernel install --user --name=python3-kernel
