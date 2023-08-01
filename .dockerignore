@@ -17,4 +17,4 @@ notebooks/
 wandb/
 src/train.py
 src/inference.py
-requirements_test.txt
+requirements_dev.txt
